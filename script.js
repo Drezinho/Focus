@@ -44,7 +44,7 @@ curtoBt.addEventListener('click', () => {
 })
 
 longoBt.addEventListener('click', () => {
-    tempoDecorridoEmSegundos = 10
+    tempoDecorridoEmSegundos = 900
     alterarContexto('descanso-longo')
     longoBt.classList.add('active')
 })
